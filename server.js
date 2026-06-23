@@ -5,7 +5,7 @@ const app = express();
 // Hardcode your coords or accept ?lat=&lon= as params
 const DEFAULT_LAT = 43.02;  // <-- change to your location
 const DEFAULT_LON = -78.87;
-const LOCATION_NAME = "Buffalo, NY"; // <-- your city name
+const LOCATION_NAME = "🌆North Tonawanda, NY🗽"; // <-- your city name
 
 app.get('/weather', async (req, res) => {
   const lat = req.query.lat || DEFAULT_LAT;
@@ -15,7 +15,7 @@ app.get('/weather', async (req, res) => {
   try {
     const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}` +
       `&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weathercode` +
-      `&temperature_unit=celsius&forecast_days=7&timezone=auto`;
+      `&temperature_unit=fahrenheit&forecast_days=7&timezone=auto`;
 
     const fetch = (await import('node-fetch')).default;
     const data = await (await fetch(url)).json();
@@ -37,7 +37,7 @@ app.get('/weather', async (req, res) => {
       const rain = days.precipitation_probability_max[i];
       const code = days.weathercode[i];
       const icon = ICONS[code] || ICONS[Math.floor(code/10)*10] || '🌡️';
-      return `${day}: ${icon} ${hi}°/${lo}°C ${rain}%💧 $(newline)`;
+      return `$(newline) ${day}: ${icon} ${hi}°/${lo}°C ${rain}%💧`;
     });
 
     res.send(`${name} 7-Day: ` + parts.join(' | '));

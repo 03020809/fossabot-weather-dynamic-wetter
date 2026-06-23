@@ -23,7 +23,7 @@ app.get('/weather', async (req, res) => {
       fetch(urlC).then(r => r.json())
     ]);
     
-    const days = data.daily;
+    const days = dataF.daily;
 
     const ICONS = {
       0:'☀️', 1:'🌤️', 2:'⛅', 3:'☁️',
@@ -45,7 +45,7 @@ app.get('/weather', async (req, res) => {
       const rain = days.precipitation_probability_max[i];
       const code = days.weathercode[i];
       const icon = ICONS[code] || ICONS[Math.floor(code/10)*10] || '🌡️';
-      return `$(newline) ${day}: ${icon} ${hi}°/${lo}°F ${rain}%💧${hi}°/${lo}°C`;
+      return `$(newline) ${day}: ${icon} ${hiF}°/${loF}°F ${rain}%💧${hiC}°/${loC}°C`;
     });
 
     res.send(`${name} 7-Day: ` + parts.join(' | '));

@@ -89,7 +89,7 @@ app.get('/weather', async (req, res) => {
       const rain = days.precipitation_probability_max[i];
       const code = days.weathercode[i];
       const icon = ICONS[code] || ICONS[Math.floor(code/10)*10] || '🌡️';
-      return `$(newline) ${day}: ${icon} ${hiC}°/${loC}°C ${rain}% 🌡️ ${hiF}°/${loF}°F`;
+      return `$(newline) ${day}: ${icon} [${hiC}°/${loC}°C] - [Rain: ${rain}%] 🌡️ [${hiF}°/${loF}°F]`;
     });
 
     res.send(`${name} 7-Day: ` + parts.join(' '));

@@ -1,5 +1,5 @@
 {
-  "name": "fossabot-weather",
+  "name": "fossabot-weather-monchi",
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {

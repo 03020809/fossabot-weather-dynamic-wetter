@@ -5,10 +5,10 @@ const app = express();
 
 // Hardcode your coords or accept ?lat=&lon= as params
 
-/*  const DEFAULT_LAT = 49.49831421;  // <-- change to your location
+const DEFAULT_LAT = 49.49831421;  // <-- change to your location
 const DEFAULT_LON = 8.476372375853645;
 const LOCATION_NAME = "🌃 Mannheim, BW 🌇 "; // <-- your city name
-*/
+
 
 // Helper: cityname -> {lat, lon, name}
 async function geocodeCity(fetch, cityname) {

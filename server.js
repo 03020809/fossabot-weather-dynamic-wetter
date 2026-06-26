@@ -12,7 +12,8 @@ const LOCATION_NAME = "🌃 Mannheim, BW 🌇 "; // <-- your city name
 
 // Helper: cityname -> {lat, lon, name}
 async function geocodeCity(fetch, cityname) {
-  const url = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(cityname)}&count=1&language=de&format=json`;
+  const url = `https://geocoding-api.open-meteo.com/v1/search?name=cityname`;
+  //const url = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(cityname)}&count=1&language=de&format=json`;
   const data = await fetch(url).then(r => r.json());
 
   if (!data.results || data.results.length === 0) {

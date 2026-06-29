@@ -78,8 +78,8 @@
         <mxCell id="wv6-X-4x8dGTElKProTv-51" edge="1" parent="1" source="s_UMoqTU6THQ3Am6J6Qj-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wv6-X-4x8dGTElKProTv-44" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="270" y="570" />
-              <mxPoint x="330" y="570" />
+              <mxPoint x="270" y="680" />
+              <mxPoint x="330" y="680" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -94,8 +94,8 @@
         <mxCell id="wv6-X-4x8dGTElKProTv-50" edge="1" parent="1" source="s_UMoqTU6THQ3Am6J6Qj-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wv6-X-4x8dGTElKProTv-44" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="530" y="570" />
-              <mxPoint x="460" y="570" />
+              <mxPoint x="530" y="680" />
+              <mxPoint x="470" y="680" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -189,7 +189,7 @@
           <mxGeometry height="60" width="120" x="80" y="550" as="geometry" />
         </mxCell>
         <mxCell id="wv6-X-4x8dGTElKProTv-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Combine into 1 repo/service" vertex="1">
-          <mxGeometry height="60" width="250" x="270" y="610" as="geometry" />
+          <mxGeometry height="60" width="250" x="279" y="810" as="geometry" />
         </mxCell>
         <mxCell id="wv6-X-4x8dGTElKProTv-55" edge="1" parent="1" source="wv6-X-4x8dGTElKProTv-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wv6-X-4x8dGTElKProTv-54" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -223,6 +223,9 @@
         </mxCell>
         <mxCell id="wv6-X-4x8dGTElKProTv-75" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="wv6-X-4x8dGTElKProTv-44" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="840" />
+            </Array>
             <mxPoint x="140" y="640" as="sourcePoint" />
             <mxPoint x="220" y="640" as="targetPoint" />
           </mxGeometry>
@@ -231,6 +234,16 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="400" y="280" as="sourcePoint" />
             <mxPoint x="400" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wv6-X-4x8dGTElKProTv-78" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=classicThin;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="840" />
+              <mxPoint x="660" y="840" />
+            </Array>
+            <mxPoint x="530" y="840" as="sourcePoint" />
+            <mxPoint x="660" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

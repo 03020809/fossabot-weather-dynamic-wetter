@@ -212,7 +212,7 @@
             <mxPoint x="-25" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wv6-X-4x8dGTElKProTv-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="change to dynamic" vertex="1">
+        <mxCell id="wv6-X-4x8dGTElKProTv-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="change to dynamic?" vertex="1">
           <mxGeometry height="30" width="120" x="-70" y="520" as="geometry" />
         </mxCell>
         <mxCell id="wv6-X-4x8dGTElKProTv-74" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="wv6-X-4x8dGTElKProTv-42" value="">

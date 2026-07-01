@@ -275,7 +275,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KmZ5O0uPCif7FGvLXstf" name="Combine">
-    <mxGraphModel dx="1178" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="979" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -353,7 +353,7 @@
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-12" edge="1" parent="1" source="SnuheEvKUOVHYs8Qi5aR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnuheEvKUOVHYs8Qi5aR-11" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SnuheEvKUOVHYs8Qi5aR-1" parent="1" style="whiteSpace=wrap;html=1;align=center;fillColor=#0050ef;fontColor=#ffffff;strokeColor=light-dark(#001DBC, #0000ff);strokeWidth=4;" value="&lt;div align=&quot;center&quot;&gt;daily=&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;weather_code,uv_index_max,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;temperature_2m_max,temperature_2m_min,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;apparent_temperature_max,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;apparent_temperature_min,sunrise,sunset,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;daylight_duration,sunshine_duration,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;wind_speed_10m_max,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;wind_direction_10m_dominant,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;precipitation_probability_max&lt;/div&gt;" vertex="1">
+        <mxCell id="SnuheEvKUOVHYs8Qi5aR-1" parent="1" style="whiteSpace=wrap;html=1;align=center;fillColor=light-dark(#6DB2FF,#6DB2FF);fontColor=#ffffff;strokeColor=light-dark(#001DBC, #0000ff);strokeWidth=4;" value="&lt;div align=&quot;center&quot;&gt;daily=&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;weather_code,uv_index_max,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;temperature_2m_max,temperature_2m_min,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;apparent_temperature_max,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;apparent_temperature_min,sunrise,sunset,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;daylight_duration,sunshine_duration,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;wind_speed_10m_max,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;wind_direction_10m_dominant,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;precipitation_probability_max&lt;/div&gt;" vertex="1">
           <mxGeometry height="195" width="290" x="360" y="1040" as="geometry" />
         </mxCell>
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-2" edge="1" parent="1" source="aRUPmoVTowCoXvFmdCom-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnuheEvKUOVHYs8Qi5aR-1" value="">
@@ -373,10 +373,10 @@
             <mxPoint x="310" y="1430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SnuheEvKUOVHYs8Qi5aR-5" parent="1" style="whiteSpace=wrap;html=1;align=center;fillColor=#a20025;fontColor=#ffffff;strokeColor=light-dark(#6F0000, #ff0080);strokeWidth=4;" value="&lt;div&gt;current=&lt;/div&gt;&lt;div&gt;temperature_2m,relative_humidity_2m,&lt;/div&gt;&lt;div&gt;apparent_temperature,is_day,wind_speed_10m,&lt;/div&gt;&lt;div&gt;wind_direction_10m,precipitation,&lt;/div&gt;&lt;div&gt;rain,weather_code,cloud_cover&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="SnuheEvKUOVHYs8Qi5aR-5" parent="1" style="whiteSpace=wrap;html=1;align=center;fillColor=light-dark(#FFADCD,#FFADCD);fontColor=#ffffff;strokeColor=light-dark(#6F0000, #ff0080);strokeWidth=4;" value="&lt;div&gt;current=&lt;/div&gt;&lt;div&gt;temperature_2m,relative_humidity_2m,&lt;/div&gt;&lt;div&gt;apparent_temperature,is_day,wind_speed_10m,&lt;/div&gt;&lt;div&gt;wind_direction_10m,precipitation,&lt;/div&gt;&lt;div&gt;rain,weather_code,cloud_cover&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="195" width="290" x="660" y="1040" as="geometry" />
         </mxCell>
-        <mxCell id="SnuheEvKUOVHYs8Qi5aR-6" parent="1" style="whiteSpace=wrap;html=1;align=center;fillColor=#6d8764;fontColor=#ffffff;strokeColor=light-dark(#3A5431,#006600);strokeWidth=5;" value="&lt;div&gt;hourly=&lt;/div&gt;&lt;div&gt;relative_humidity_2m,apparent_temperature,&lt;/div&gt;&lt;div&gt;precipitation_probability,rain,weather_code,visibility,&lt;/div&gt;&lt;div&gt;cloud_cover,wind_speed_10m,soil_temperature_0cm,&lt;/div&gt;&lt;div&gt;uv_index,is_day,sunshine_duration,precipitation,&lt;/div&gt;&lt;div&gt;temperature_2m&lt;/div&gt;" vertex="1">
+        <mxCell id="SnuheEvKUOVHYs8Qi5aR-6" parent="1" style="whiteSpace=wrap;html=1;align=center;fillColor=light-dark(#6D8764,#6D8764);fontColor=#ffffff;strokeColor=light-dark(#3A5431,#006600);strokeWidth=5;" value="&lt;div&gt;hourly=&lt;/div&gt;&lt;div&gt;relative_humidity_2m,apparent_temperature,&lt;/div&gt;&lt;div&gt;precipitation_probability,rain,weather_code,visibility,&lt;/div&gt;&lt;div&gt;cloud_cover,wind_speed_10m,soil_temperature_0cm,&lt;/div&gt;&lt;div&gt;uv_index,is_day,sunshine_duration,precipitation,&lt;/div&gt;&lt;div&gt;temperature_2m&lt;/div&gt;" vertex="1">
           <mxGeometry height="195" width="290" x="60" y="1040" as="geometry" />
         </mxCell>
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-7" edge="1" parent="1" source="aRUPmoVTowCoXvFmdCom-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnuheEvKUOVHYs8Qi5aR-6" value="">
@@ -409,10 +409,10 @@
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-25" edge="1" parent="1" source="SnuheEvKUOVHYs8Qi5aR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnuheEvKUOVHYs8Qi5aR-18" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SnuheEvKUOVHYs8Qi5aR-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="temp, feel like temp, humidity, day or night | precipitation, rain, cloud coverage | wind direction, wind speed | weather code" vertex="1">
+        <mxCell id="SnuheEvKUOVHYs8Qi5aR-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=light-dark(#6F0000, #ff0080);fontColor=#ffffff;strokeWidth=5;" value="temp, feel like temp, humidity, day or night | precipitation, rain, cloud coverage | wind direction, wind speed | weather code" vertex="1">
           <mxGeometry height="90" width="265" x="72.5" y="1440" as="geometry" />
         </mxCell>
-        <mxCell id="SnuheEvKUOVHYs8Qi5aR-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="temperature_2m, apparent_temperature, relative_humidity_2m, is_day | precipitation, rain, cloud_cover | wind_direction_10m, wind_speed_10m | weather_code" vertex="1">
+        <mxCell id="SnuheEvKUOVHYs8Qi5aR-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#A20025,#6D8764);strokeColor=light-dark(#6F0000, #ff0080);fontColor=#ffffff;strokeWidth=4;" value="temperature_2m, apparent_temperature, relative_humidity_2m, is_day | precipitation, rain, cloud_cover | wind_direction_10m, wind_speed_10m | weather_code" vertex="1">
           <mxGeometry height="110" width="270" x="70" y="1560" as="geometry" />
         </mxCell>
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="!w city +-d" vertex="1">
@@ -424,10 +424,10 @@
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-75" edge="1" parent="1" source="SnuheEvKUOVHYs8Qi5aR-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classicThin;startFill=1;" target="SnuheEvKUOVHYs8Qi5aR-24" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SnuheEvKUOVHYs8Qi5aR-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="temp, feel like temp, humidity, day or night | precipitation, rain, cloud coverage | wind direction, wind speed | weather code" vertex="1">
+        <mxCell id="SnuheEvKUOVHYs8Qi5aR-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=light-dark(#6F0000, #ff0080);strokeWidth=4;" value="temp, feel like temp, humidity, day or night | precipitation, rain, cloud coverage | wind direction, wind speed | weather code" vertex="1">
           <mxGeometry height="90" width="265" x="372.5" y="1440" as="geometry" />
         </mxCell>
-        <mxCell id="SnuheEvKUOVHYs8Qi5aR-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="temperature_2m, apparent_temperature, relative_humidity_2m, is_day | &lt;br/&gt;precipitation, rain, cloud_cover | wind_direction_10m, wind_speed_10m | &lt;br/&gt;weather_code" vertex="1">
+        <mxCell id="SnuheEvKUOVHYs8Qi5aR-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#6DB2FF,#6DB2FF);fontColor=#ffffff;strokeColor=light-dark(#6F0000, #ff0080);strokeWidth=5;" value="temperature_2m, apparent_temperature, relative_humidity_2m, is_day | &lt;br/&gt;precipitation, rain, cloud_cover | wind_direction_10m, wind_speed_10m | &lt;br/&gt;weather_code" vertex="1">
           <mxGeometry height="110" width="270" x="370" y="1560" as="geometry" />
         </mxCell>
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-76" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.934;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="SnuheEvKUOVHYs8Qi5aR-55" value="">

@@ -630,7 +630,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7ulIfioCiJIR-uq-MiYf" name="hourly-weather">
-    <mxGraphModel dx="1085" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="837" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -720,6 +720,9 @@
         </mxCell>
         <mxCell id="We1lOIoIXjiZLtgu_Vxl-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=light-dark(#C73500,#990000);strokeWidth=3;" value="&lt;div&gt;&lt;font&gt;example:&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;17:00&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;16:00&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;15:00&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;14:00&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;13:00&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;12:00 (current)&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="170" width="195" x="230" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="We1lOIoIXjiZLtgu_Vxl-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="precipitation" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="890" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
